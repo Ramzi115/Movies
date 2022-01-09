@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    background: linear-gradient(to top ,rgba(0, 0, 0, 0.2),rgba(0, 3, 3, 0.6) )
+    ;
+    background-repeat: no-repeat;
+    background-image: url(images/conor-luddy-IVaKksEZmZA-unsplash.jpg);
+
+}
+   
+
+
+
+button{
+    padding: 20px 20px;
+    font-size: 16px;
+    color: black;
+    
+}
+.nav_container{
+    position:sticky;
+    top:0;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top,rgba(0,0,0,0.3),rgba(0,0,0,0.6));
+    /* padding: 30px 10%; */
+     
+    border-bottom: 1px solid #ebeef0  ;
+}
+ li, a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 60px;
+    color: aliceblue;
+    padding-left: 200px;
+    font-style: italic ;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li {
+    display:inline-block;
+    /* padding: 0 20px; */
+
+}
+button{
+    font-size: 20px;
+    color: #ebeef0;
+    background: linear-gradient(to top,rgba(0,0,0,0.3),rgba(0,0,0,0.6));
+    border-radius: 40px;
+    cursor: pointer;
+}
+.nav__links li :hover {
+    background-color: aqua  ;
+    transition: all 0.3s ease 0s ;
+}
+#search{
+    padding: 10px;
+    border-radius: 50px;
+}
+/* main sections 
+*/
+main{
+    padding-top: 200px ;
+}
+
+main div h1{
+    text-align: center;
+    color: #ebeef0;
+    font-style: italic;
+    justify-content: center;
+
+}
+.movies li{
+    display:inline-block;
+    padding: 60px 60px;
+    
+}
+
+img{
+    display: inline-block;
+    width: 100px ;
+    height: 200px;
+    border-radius: 50%;
+    padding-block: 10px;
+    
+}
+img:hover{
+    border-radius: 20%;
+}
+.title{
+    background-color: #ebeef0;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+.title:hover{
+    background-color: aquamarine;
+    transition: all 0.3s ease 0s;
+    
+}
+.series li{
+     display:inline-block;
+    padding: 60px 60px;
+    
+}
+ h1{
+    text-align: center;
+    color: #ebeef0;
+    font-style: italic;
+    justify-content: center;
+ }
